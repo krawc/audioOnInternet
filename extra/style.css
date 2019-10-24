@@ -1,0 +1,37 @@
+
+body {
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+a{
+    color:yellow;
+}
+h1 {
+    font-family: "Warnes", sans-serif;
+    font-size: 72px;
+    margin-top: 60px;
+    text-shadow: none;
+}
+.bar-wrapper {
+    height: 300px;
+    position: relative;
+}
+.bar {
+    position: relative;
+    bottom: 0;
+    width: 5px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 5px;
+    border-bottom: 3px solid #fff;
+}
+
+.neon {
+    text-shadow: none;
+    color: hsl(0, 0%, 20%);
+}
+
+audio {
+    outline: none;
+}
